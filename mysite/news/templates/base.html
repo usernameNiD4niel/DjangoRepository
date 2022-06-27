@@ -2,9 +2,10 @@
 <html>
 <head>
     <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 <body>
-    <img src="{% static 'images/sitelogo.png' %}" alt="Logo">
+    <img src="{% static 'images/sitelogo.jpg' %}" alt="Logo">
     {% block content %}{% endblock %}
 </body>
 </html>
